@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int radius;
+	cout<<"\nEnter the value of Radius: ";
+	cin>>radius;
+	float b;
+	b=3.14*radius*radius;
+	
+	cout<<"\nArea of circle = "<<b;	
+}
