@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	long long int fact=1;
+	int n, i=1;
+	cout<<"\nEnter n: ";
+	cin>>n;
+	if(n<0)
+	{
+		cout<<"\nFactorial of -ve number cannot be computed";
+		
+	}
+	else{
+		while(i<=n){
+			fact=fact*i;
+			i++;
+		}
+		cout<<"\nFactorial of "<<n<<"is: "<<fact;
+	}
+}
